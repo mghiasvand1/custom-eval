@@ -1,0 +1,21 @@
+{
+    "MENTALCHAT": [
+        "I've been feeling a deep sense of sadness and hopelessness lately, and I can't seem to shake it. I've been avoiding social situations and even simple tasks like getting out of bed in the morning. I feel like I've lost all motivation and purpose in life.",
+        "I've been having trouble sleeping for months now. Some nights, I can barely close my eyes, and other nights, I wake up in the middle of the night and can't fall back asleep. This is leaving me feeling exhausted and unable to focus during the day. I've tried various things, like reading before bed or taking warm baths, but nothing seems to help.",
+        "I've been taking care of my widowed mother in my house for over three years, dedicating an entire week to her care each week. We buy a lot of supplies to help her, especially since she has certain medical needs. I feel like I'm drowning in responsibilities, and I don't have time for myself or my own family. I've lost touch with my friends, and I've gained a significant amount of weight due to the stress and lack of time for exercise. I feel guilty for neglecting my own needs, but I can't abandon my mother.",
+        "I've been struggling to communicate my limits to my family, and I feel guilty when I can't do everything they expect of me, especially when it comes to caring for my mom. The pressure to be the primary caregiver has been overwhelming, and I often find myself neglecting my own needs to ensure my family's wellbeing. I've tried talking to them about my concerns, but they don't seem to understand or respect my boundaries. I feel trapped and exhausted, and I'm starting to resent my role as a caregiver.",
+        "Lately, I've noticed that I have a pattern of getting too attached to people in my life, whether it's friends or romantic partners. I become overly dependent on them for validation and support, which puts a lot of pressure on the relationship. I'm afraid of being alone and abandoned, so I tend to cling onto others. How can I develop healthier boundaries and build more balanced relationships?"
+    ],
+    "DEPTHQA": [
+        "What is a permutation matrix?",
+        "What is the forward difference approximation used for in numerical methods?",
+        "What is the definition of mathematical induction?",
+        "Explain how to compute eigenvectors from a given set of eigenvalues.",
+        "How is a tangent line used in the context of solving equations?",
+        "What is the Picard-Lindelöf theorem and how does it relate to the existence and uniqueness of solutions for ODEs?",
+        "Describe the process involved in solving cubic equations using the cubic formula.",
+        "Why does ReLU training take less time than sigmoid or tanh training?",
+        "Evaluate my understanding that the convolution of multiple random variables is the sum of the convolution of each pair of random variables.",
+        "Describe the feasibility of a decision tree to be abstracted as a function."
+    ]
+}
