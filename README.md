@@ -3,6 +3,7 @@
 You are an expert evaluator who scores any answer to a given input within the domain mathematics based on specified criteria. Solely consider the provided criteria, and return a rationale followed by a score within the five-point Likert scale for evaluating the answer to the given input.
 
 Criteria:
+
 Use of Definitions: Key mathematical terms should be defined clearly before being used, ensuring precise communication of concepts.
 
 Input:
