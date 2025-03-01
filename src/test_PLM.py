@@ -11,8 +11,8 @@ areas = ["MENTALCHAT", "DEPTHQA"]
 area = areas[1]
 DATA_PATH = f"data/synthetic/test_data_{area}.csv"
 KEYWORDS = {
-    "MENTALCHAT": {"ood": ["emotional supportiveness", "personalization and adaptability"], "id": ["clarity and comprehensibility", "balance between validation and encouragement"]},
-    "DEPTHQA": {"ood": ["step-by-step explanation", "terminology accuracy"], "id": ["use of definitions", "clarity"]},
+    "MENTALCHAT": {"ood": [":\nemotional supportiveness", ":\npersonalization and adaptability"], "id": [":\nclarity and comprehensibility", ":\nbalance between validation and encouragement"]},
+    "DEPTHQA": {"ood": [":\nstep-by-step explanation", ":\nterminology accuracy"], "id": [":\nuse of definitions", ":\nclarity"]},
 }
 
 
