@@ -2,7 +2,7 @@ from sklearn.metrics import cohen_kappa_score
 from groq import Groq
 from tqdm import tqdm
 import pandas as pd
-import json
+import ast
 
 
 api_key = ""
@@ -21,7 +21,6 @@ def get_model_response(prompt):
         "role": "user",
         "content": prompt
     }
-
     try:
         completion = client.chat.completions.create(
             model="mixtral-8x7b-32768",
@@ -29,11 +28,13 @@ def get_model_response(prompt):
             temperature=0,
             seed=42,
             max_tokens=1024,
-            response_format={"type": "json_object"}
         )
-        response = json.loads(completion.choices[0].message.content)
-        return response.get("score")
-    except (json.JSONDecodeError, AttributeError):
+        response = completion.choices[0].message.content
+        start_idx = str(response).find('{')
+        end_idx = str(response).rfind('}') + 1
+        response = ast.literal_eval(response[start_idx:end_idx])
+        return response
+    except:
         return None
 
 
