@@ -1,5 +1,5 @@
-from sklearn.metrics import pairwise_distances
 from sentence_transformers import SentenceTransformer
+from sklearn.metrics import pairwise_distances
 import pandas as pd
 import numpy as np
 import abc
@@ -106,7 +106,7 @@ class kCenterGreedy(SamplingMethod):
 
 areas = ["MENTALCHAT", "DEPTHQA"]
 area = areas[0]
-DATA_NUM = 60
+DATA_NUM = 200
 
 df = pd.read_csv(f'data/synthetic/train_data_{area}.csv')
 
