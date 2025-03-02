@@ -27,7 +27,7 @@ def get_model_response(prompt):
             messages=[user_message],
             temperature=0,
             seed=42,
-            max_tokens=1024,
+            max_tokens=2048,
         )
         response = completion.choices[0].message.content
         start_idx = str(response).find('{')
