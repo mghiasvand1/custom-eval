@@ -33,7 +33,7 @@ def get_model_response(prompt):
         start_idx = str(response).find('{')
         end_idx = str(response).rfind('}') + 1
         response = ast.literal_eval(response[start_idx:end_idx])
-        return response
+        return response["score"]
     except:
         return None
 
